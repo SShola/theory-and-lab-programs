@@ -1,4 +1,9 @@
-t=(2,"hello",[2,33],{1:5})
-t[-1]=({3:7})
-t[-2][0]='hii'
-print(t)
+f=open('1.txt','w')
+a=input("Enter the string to input:")
+f.write(a)
+f.close()
+
+f=open('1.txt','r')
+a=f.read()
+print(a)
+f.close()

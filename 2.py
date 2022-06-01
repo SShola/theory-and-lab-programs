@@ -1,7 +1,5 @@
-#return unique element
-lst=list(map(int,input("Enter:").split()))
-b=[]
-for i in lst:
-    if(i not in b):
-        b.append(i)
-print(b)
+#print only 5 character of 1.txt file
+f=open('1.txt','r')
+a=f.read(5)
+print(a)
+f.close()
